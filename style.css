@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    /* Sätter allting i en rad*/
+    display: flex;
+
+    /*Sätter allting som display block*/
+    flex-direction: column;
+
+    /*Text-align center för FlexBox*/
+    align-items: center;
+
+    /*Justify funkar med height*/
+    justify-content: center;
+
+    height: 100vh;
+
+    /*Gör så att scrollbars ej syns*/
+    overflow: hidden;
+
+    margin: 0;
+}
